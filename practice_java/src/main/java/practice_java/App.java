@@ -28,6 +28,9 @@ public class App {
 			case 10818:
 				p = new Problem_10818();
 				break;
+			case 1546:
+				p = new Problem_1546();
+				break;
 			default:
 				break;
 		}
@@ -44,6 +47,7 @@ public class App {
 		ArrayList<Integer> arr = new ArrayList<>();
 		arr.add(10818);
 		arr.add(2562);	
+		arr.add(1546);
 		System.out.println("Here is Problems we got: ");
 		for(int i : arr){
 			System.out.print(i+" ");

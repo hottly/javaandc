@@ -8,7 +8,7 @@ public class Problem_2562 extends Problem{
 	private int n;
 	private int[] arr;
 
-	public	Problem_2562(){
+	public Problem_2562(){
 		max = 0;
 		idx = 0;
 		n = 0;
