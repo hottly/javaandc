@@ -31,6 +31,9 @@ public class App {
 			case 1546:
 				p = new Problem_1546();
 				break;
+			case 4673:
+				p = new Problem_4673();
+				break;
 			default:
 				break;
 		}
@@ -48,6 +51,7 @@ public class App {
 		arr.add(10818);
 		arr.add(2562);	
 		arr.add(1546);
+		arr.add(4673);
 		System.out.println("Here is Problems we got: ");
 		for(int i : arr){
 			System.out.print(i+" ");
