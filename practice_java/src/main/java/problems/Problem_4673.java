@@ -1,6 +1,6 @@
 package problems;
 import problems.Problem;
-
+import java.util.Scanner;
 
 public class Problem_4673 extends Problem{
 	public Problem_4673(){
@@ -8,13 +8,21 @@ public class Problem_4673 extends Problem{
 	}
 	
 	public void run(){
-		for(int i =1; i< 10000; i++)
-			if(isSelfNumber(i))
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please enter n : ");
+		int n = sc.nextInt();
+		int count = 0;
+		for(int i =1; i< n; i++)
+			if(isSelfNumber(i)){
 				System.out.println(i);
+				count++;
+			}
+
+		System.out.println("Total Self Number Count in "+ n +" is :" + count);
 	}
 
 	public String getDescription(){
-		return "Get Self Number less than 10000";
+		return "Get Self Number less than N";
 	}
 
 	public boolean isSelfNumber(int val){

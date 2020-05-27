@@ -34,6 +34,12 @@ public class App {
 			case 4673:
 				p = new Problem_4673();
 				break;
+			case 11654:
+				p = new Problem_11654();
+				break;
+			case 11720:
+				p = new Problem_11720();
+				break;
 			default:
 				break;
 		}
@@ -48,10 +54,11 @@ public class App {
 
 	public static void listProblems(){
 		ArrayList<Integer> arr = new ArrayList<>();
-		arr.add(10818);
+		arr.add(10818); arr.add(11720);
 		arr.add(2562);	
 		arr.add(1546);
 		arr.add(4673);
+		arr.add(11654);
 		System.out.println("Here is Problems we got: ");
 		for(int i : arr){
 			System.out.print(i+" ");
